@@ -13,6 +13,7 @@ phraseapp:
     targets:
       - file: ./Backend/en.json
         params:
+          update_translations: true
           file_format: go_i18n      
       - file: ./Backend/ru.json
         params:
