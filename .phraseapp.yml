@@ -1,18 +1,18 @@
 phraseapp:
   access_token: e89e42b3d4a748f00d4c260256319217c4461bb25f28078a1e6ed61c9d18a1de
   project_id: e85ce7103c13712271a0585c6cbda3b7
-  file_format: go_i18n
 
   push:
     sources:
-      - file: ./Backend/en.json
+      - file: ./Backend/*.json
         params:
-          locale_id: a4f63c03384462a17f41e4a5e04ed9e4
-      - file: ./Backend/ru.json
-        params:
-          locale_id: 5ad15aa1e29e34276b5a2d51d8c890d2
+          file_format: go_i18n
 
   pull:
     targets:
       - file: ./Backend/en.json
+        params:
+          file_format: go_i18n      
       - file: ./Backend/ru.json
+        params:
+          file_format: go_i18n
