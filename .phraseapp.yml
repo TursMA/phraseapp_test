@@ -9,7 +9,7 @@ phraseapp:
       - file: ./Backend/ru.json
 
 
-  poll:
-    targetss:
+  pull:
+    targets:
       - file: ./Backend/en.json
       - file: ./Backend/ru.json 
