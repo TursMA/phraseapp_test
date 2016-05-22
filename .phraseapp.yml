@@ -5,11 +5,11 @@ phraseapp:
 
   push:
     sources:
-      - file: ./Backend/en.json
-      - file: ./Backend/ru.json
+      - file: "./Backend/en.json"
+      - file: "./Backend/ru.json"
 
 
   pull:
     targets:
-      - file: ./Backend/en.json
-      - file: ./Backend/ru.json 
+      - file: "./Backend/en.json"
+      - file: "./Backend/ru.json"
