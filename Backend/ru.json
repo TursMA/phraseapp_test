@@ -1,3 +1,26 @@
 [
-
+  {
+    "id": "incar_onboarding_label",
+    "translation": "Display Beta promotion during Busy mode"
+  },
+  {
+    "id": "incar_onboarding_popup_body",
+    "translation": "It's finally here! Starting today, when you switch to Busy mode your riders will see a promotion offering them 35% off all Juno rides. You will receive $15 for each rider that signs up with you when they take their first Juno ride. Let's start spreading the Juno story!\n\nYou can disable this promotion in Settings."
+  },
+  {
+    "id": "incar_onboarding_popup_confirmation",
+    "translation": "GOT IT"
+  },
+  {
+    "id": "incar_onboarding_popup_title",
+    "translation": "BETA PROMOTION"
+  },
+  {
+    "id": "incar_onboarding_submit_number_screen",
+    "translation": "Join our Beta program to enjoy 35% off all rides"
+  },
+  {
+    "id": "incar_onboarding_submit_number_success",
+    "translation": "We will shortly send a text message to the number submitted with a link to download the app\n\nTHANK YOU!!!!!!!!!!"
+  }
 ]
