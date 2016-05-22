@@ -5,14 +5,14 @@ phraseapp:
 
   push:
     sources:
-      - file: "./Backend/en.json"
+      - file: ./Backend/en.json
         params:
           locale_id: a4f63c03384462a17f41e4a5e04ed9e4
-      - file: "./Backend/ru.json"
+      - file: ./Backend/ru.json
         params:
           locale_id: 5ad15aa1e29e34276b5a2d51d8c890d2
 
   pull:
     targets:
-      - file: "./Backend/en.json"
-      - file: "./Backend/ru.json"
+      - file: ./Backend/en.json
+      - file: ./Backend/ru.json
