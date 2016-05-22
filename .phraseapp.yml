@@ -1,0 +1,15 @@
+phraseapp:
+  access_token: e89e42b3d4a748f00d4c260256319217c4461bb25f28078a1e6ed61c9d18a1de
+  project_id: e85ce7103c13712271a0585c6cbda3b7
+  file_format: go_i18n
+
+  push:
+    sources:
+      - file: ./Backend/en.json
+      - file: ./Backend/ru.json
+
+
+  poll:
+    targetss:
+      - file: ./Backend/en.json
+      - file: ./Backend/ru.json 
