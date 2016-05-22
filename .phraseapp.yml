@@ -4,8 +4,9 @@ phraseapp:
 
   push:
     sources:
-      - file: ./Backend/*.json
+      - file: ./Backend/en.json
         params:
+          locale_id: a4f63c03384462a17f41e4a5e04ed9e4
           file_format: go_i18n
 
   pull:
